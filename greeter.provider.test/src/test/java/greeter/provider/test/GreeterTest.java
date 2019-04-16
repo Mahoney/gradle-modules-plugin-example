@@ -1,4 +1,4 @@
-package tests;
+package greeter.provider.test;
 
 import greeter.api.Greeter;
 import org.junit.jupiter.api.Test;
