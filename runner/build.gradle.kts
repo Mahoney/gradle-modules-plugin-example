@@ -3,8 +3,8 @@ plugins {
 }
 
 dependencies {
-    compile(project(":greeter.api"))
-    runtime(project(":greeter.provider"))
+    compile(project(":api"))
+    runtime(project(":provider"))
 }
 
 application {

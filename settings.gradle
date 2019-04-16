@@ -1,8 +1,6 @@
 rootProject.name = 'moduleplugintests'
-include 'greeter.api'
 
-
-include 'greeter.provider'
-include 'greeter.runner'
-include 'greeter.provider.test'
-
+include 'api'
+include 'provider'
+include 'runner'
+include 'provider.test'
