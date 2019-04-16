@@ -1,3 +1,3 @@
 module greeter.api {
-    exports examples.greeter.api;
+    exports greeter.api;
 }

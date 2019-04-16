@@ -1,6 +1,6 @@
 package tests;
 
-import examples.greeter.api.Greeter;
+import greeter.api.Greeter;
 
 import java.util.ServiceLoader;
 

@@ -1,6 +1,6 @@
 package tests;
 
-import examples.greeter.api.Greeter;
+import greeter.api.Greeter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;

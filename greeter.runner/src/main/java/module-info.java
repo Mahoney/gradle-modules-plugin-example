@@ -1,4 +1,4 @@
-import examples.greeter.api.Greeter;
+import greeter.api.Greeter;
 
 module greeter.runner {
     requires greeter.api;

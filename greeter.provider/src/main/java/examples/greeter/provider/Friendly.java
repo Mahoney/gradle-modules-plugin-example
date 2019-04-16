@@ -1,6 +1,6 @@
 package examples.greeter.provider;
 
-import examples.greeter.api.Greeter;
+import greeter.api.Greeter;
 
 public class Friendly implements Greeter {
     @Override

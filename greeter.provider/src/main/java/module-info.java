@@ -1,4 +1,4 @@
-import examples.greeter.api.Greeter;
+import greeter.api.Greeter;
 import examples.greeter.provider.Friendly;
 
 module greeter.provider {
