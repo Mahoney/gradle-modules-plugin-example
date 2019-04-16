@@ -1,6 +1,0 @@
-rootProject.name = 'moduleplugintests'
-
-include 'api'
-include 'provider'
-include 'runner'
-include 'provider.test'
