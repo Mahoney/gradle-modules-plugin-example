@@ -8,7 +8,7 @@ dependencies {
 }
 
 application {
-    mainClassName = "$moduleName/examples.Runner"
+    mainClassName = "$moduleName/greeter.runner.Runner"
 
     tasks.named<JavaExec>("run") {
         jvmArgs = listOf("-XX:+PrintGCDetails")

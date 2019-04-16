@@ -1,4 +1,4 @@
-package examples;
+package greeter.runner;
 
 import greeter.api.Greeter;
 
