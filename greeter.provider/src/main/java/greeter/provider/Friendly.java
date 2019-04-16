@@ -1,4 +1,4 @@
-package examples.greeter.provider;
+package greeter.provider;
 
 import greeter.api.Greeter;
 

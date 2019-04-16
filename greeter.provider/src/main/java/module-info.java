@@ -1,5 +1,5 @@
 import greeter.api.Greeter;
-import examples.greeter.provider.Friendly;
+import greeter.provider.Friendly;
 
 module greeter.provider {
     requires greeter.api;

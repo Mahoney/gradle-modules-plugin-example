@@ -1,6 +1,6 @@
 package examples.greeter;
 
-import examples.greeter.provider.Friendly;
+import greeter.provider.Friendly;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
