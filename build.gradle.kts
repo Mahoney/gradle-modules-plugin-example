@@ -7,7 +7,7 @@ plugins {
 }
 
 subprojects {
-    apply(plugin = "java")
+    apply<JavaPlugin>()
     apply<ModuleSystemPlugin>()
 
     version = "1.0.0"
@@ -16,7 +16,6 @@ subprojects {
         sourceCompatibility = VERSION_11
         targetCompatibility = VERSION_11
     }
-
 
     repositories {
         mavenCentral()
@@ -35,6 +34,4 @@ subprojects {
         testCompile("org.junit.jupiter:junit-jupiter-params:5.2.0")
         testRuntime("org.junit.jupiter:junit-jupiter-engine:5.2.0")
     }
-
-
 }
